@@ -1,1 +1,28 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.intro-wrapper {
+	display: flex;
+
+	.static-text {
+		color: black;
+		font-size: 45px;
+		font-weight: 400;
+	}
+
+	> .changing-text {
+		margin-left: 15px;
+	}
+
+	.changing-text > li {
+		list-style: none;
+		color: red;
+		font-size: 45px;
+		font-weight: 500;
+		position: relative;
+	}
+}
