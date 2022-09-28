@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=neon.css.map */
+.text-effect {
+  overflow: hidden;
+  position: relative;
+  -webkit-filter: contrast(110%) brightness(190%);
+          filter: contrast(110%) brightness(190%);
+}
+
+.text-effect > .neon {
+  position: relative;
+  background: black;
+  color: transparent;
+}
+
+.text-effect > .neon::before, .text-effect > .neon::after {
+  content: attr(data-text);
+  color: white;
+}
+/*# sourceMappingURL=neon.css.map */

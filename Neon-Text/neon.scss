@@ -1,2 +1,8 @@
 $color1: silver;
 $color2: blue;
+
+.text-effect {
+	overflow: hidden;
+	position: relative;
+	filter: contrast(110%) brightness(190%);
+}
