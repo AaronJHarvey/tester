@@ -5,4 +5,9 @@ $color2: blue;
 	overflow: hidden;
 	position: relative;
 	filter: contrast(110%) brightness(190%);
+	> .neon {
+		position: relative;
+		background: black;
+		color: transparent;
+	}
 }
