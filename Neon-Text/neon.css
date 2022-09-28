@@ -10,4 +10,15 @@
   background: black;
   color: transparent;
 }
+
+.text-effect > .neon::before, .text-effect > .neon::after {
+  content: attr(data-text);
+  color: white;
+  -webkit-filter: blur(0.02em);
+          filter: blur(0.02em);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
 /*# sourceMappingURL=neon.css.map */

@@ -9,5 +9,16 @@ $color2: blue;
 		position: relative;
 		background: black;
 		color: transparent;
+
+		&::before,
+		&::after {
+			content: attr((data-text));
+			color: white;
+			filter: blur(.02em);
+			position: absolute;
+			top: 0;
+			left: 0;
+			pointer-events: none;
+		}
 	}
 }
